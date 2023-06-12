@@ -12,7 +12,7 @@ Os notebooks podem ser utilizados em máquina local ou por meio do Google Colab 
 conda env create -f environment.yml
 ```
 
-**Nota:** Caso a resolução das dependências dos pacotes a serem instalados demore muito tempo, realize os seguintes ajustes no arquivo $HOME/.condarc e tente novamente:
+**Nota:** Caso a resolução das dependências dos pacotes a serem instalados demore muito tempo, realize os seguintes ajustes no arquivo `$HOME/.condarc` e tente novamente:
 
 ```
 channel_priority: flexible
