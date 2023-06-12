@@ -33,8 +33,8 @@ jupyter-lab
 
 | Nome                                | Objetivo                                                  | Acesso |
 |-------------------------------------|-----------------------------------------------------------|--------|
-| `01-convert_dataframe_to_csv.ipynb` | Conversão de arquivos assci do SCANTEC para o formato CSV |        |
-| `02-convert_dataset_to_zarr.ipynb`  | Conversão de arquivos binários para o formato Zarr        |        |
-| `03-intake_catalog.ipynb`           | Acesso dos dados CSV e Zarr por meio de um catálogo       |        |
+| `01-convert_dataframe_to_csv.ipynb` | Conversão de arquivos assci do SCANTEC para o formato CSV | <a target="_blank" href="https://colab.research.google.com/github/monanadmin/monan_post/blob/main/notebooks/01-convert_dataframe_to_csv.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>/a> |
+| `02-convert_dataset_to_zarr.ipynb`  | Conversão de arquivos binários para o formato Zarr        | <a target="_blank" href="https://colab.research.google.com/github/monanadmin/monan_post/blob/main/notebooks/02-convert_dataset_to_zarr.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>/a> |
+| `03-intake_catalog.ipynb`           | Acesso dos dados CSV e Zarr por meio de um catálogo       | <a target="_blank" href="https://colab.research.google.com/github/monanadmin/monan_post/blob/main/notebooks/03-intake_catalog.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>/a> |
 
 **Referência:** [Using Cloud Computing to Analyze Model Outpur Archived in Zarr Format](https://journals.ametsoc.org/view/journals/atot/39/4/JTECH-D-21-0106.1.xml).
