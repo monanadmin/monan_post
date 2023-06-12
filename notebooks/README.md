@@ -1,4 +1,4 @@
-# MONAN_POST
+# monan_post
 
 Nos notebooks alocados neste diretório, são apresentados exemplos de utilização das bibliotecas `intake`, `zarr` e `xarray` para a criação de catálogos e estruturação de dados n-dimensionais para seu uso na nuvem. O objetivo é compreender as formas atuais para acesso de dados na nuvem e "analysis-ready", i.e., permitir que os usuários do modelo MONAN possam acessar seus dados para a análise sem a necessidade de baixar e tratar os dados para posterior análise.
 
