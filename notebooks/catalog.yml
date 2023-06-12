@@ -1,0 +1,736 @@
+sources:
+
+  scantec_df_bias_rmse_acor_gl:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/scantec_df_T1_gl.csv
+    description: Bias, Root Mean Square Error and Anomaly Correlation for the DTC experiment (average gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEDTC_20230216002023030300F.zarr
+    description: Root Mean Square Error for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_mean_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANDTC_20230216002023030300F.zarr
+    description: Mean Error for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_vies_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESDTC_20230216002023030300F.zarr
+    description: Bias for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEDTC_20230216002023030300F.zarr
+    description: Root Mean Square Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_mean_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANDTC_20230216002023030300F.zarr
+    description: Mean Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_vies_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESDTC_20230216002023030300F.zarr
+    description: Bias for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEDTC_20230216002023030300F.zarr
+    description: Root Mean Square Error for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_mean_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANDTC_20230216002023030300F.zarr
+    description: Mean Error for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_vies_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESDTC_20230216002023030300F.zarr
+    description: Bias for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEDTC_20230216002023030300F.zarr
+    description: Root Mean Square Error for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_mean_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANDTC_20230216002023030300F.zarr
+    description: Mean Error for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_vies_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESDTC_20230216002023030300F.zarr
+    description: Bias for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEDTC_20230216002023030300F.zarr
+    description: Root Mean Square Error for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_mean_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANDTC_20230216002023030300F.zarr
+    description: Mean Error for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_vies_dtc:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESDTC_20230216002023030300F.zarr
+    description: Bias for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_rmse_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_mean_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH_20230216002023030300F.zarr
+    description: Mean Error for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_vies_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH_20230216002023030300F.zarr
+    description: Bias for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_rmse_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_mean_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH_20230216002023030300F.zarr
+    description: Mean Error for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_vies_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH_20230216002023030300F.zarr
+    description: Bias for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_rmse_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_mean_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH_20230216002023030300F.zarr
+    description: Mean Error for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_vies_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH_20230216002023030300F.zarr
+    description: Bias for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_rmse_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_mean_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH_20230216002023030300F.zarr
+    description: Mean Error for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_vies_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH_20230216002023030300F.zarr
+    description: Bias for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_rmse_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_mean_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH_20230216002023030300F.zarr
+    description: Mean Error for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_vies_bamh:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH_20230216002023030300F.zarr
+    description: Bias for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_rmse_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH0_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_mean_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH0_20230216002023030300F.zarr
+    description: Mean Error for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_gl_vies_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH0_20230216002023030300F.zarr
+    description: Bias for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_rmse_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH0_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_mean_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH0_20230216002023030300F.zarr
+    description: Mean Error for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hn_vies_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH0_20230216002023030300F.zarr
+    description: Bias for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_rmse_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH0_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_mean_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH0_20230216002023030300F.zarr
+    description: Mean Error for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_tr_vies_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH0_20230216002023030300F.zarr
+    description: Bias for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_rmse_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH0_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_mean_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH0_20230216002023030300F.zarr
+    description: Mean Error for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_hs_vies_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH0_20230216002023030300F.zarr
+    description: Bias for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_rmse_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/RMSEBAMH0_20230216002023030300F.zarr
+    description: Root Mean Square Error for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_mean_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/MEANBAMH0_20230216002023030300F.zarr
+    description: Mean Error for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
+
+  scantec_as_vies_bamh0:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/VIESBAMH0_20230216002023030300F.zarr
+    description: Bias for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/MONAN/monan_post/data/
+
